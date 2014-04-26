@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>003-lounge-html-links</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 003-lounge-html-links</name>
+  	
+	<description>
+		The project leverages on 001-lounge-html to create two additional pages that
+		can be accessed from the about.html page using links.
+		The a element is used to create a hyperlink to another web page.
+		The content of the a element becomes a clickable in the web page and the
+		href attribute tells the browser where to direct the user when the link is 
+		clicked on.
+		
+		It also features some basic site organization:
+			+ root folder: for home page, lounge.html
+			+ about folder : for directions.html
+			+ beverages    : for elixir.html
+			+ images       : for all the images
+		
+		lounge.html :
+			The main page for the Head First Lounge. It includes two links (a elements)
+			to the elixir and direction pages.						
+	</description>
+</project>
+

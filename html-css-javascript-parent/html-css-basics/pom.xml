@@ -21,6 +21,7 @@
 	<modules>
 		<module>001-lounge-html</module>
 		<module>002-starbuzz</module>
+		<module>003-lounge-html-links</module>
 	</modules>
 </project>
 

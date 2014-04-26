@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>004-journal</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 004-journal</name>
+  	
+	<description>
+		The project consist in structuring a journal web page that includes a title,
+		a description and a sequence of three entries of the journal, all of them sharing
+		the same structure: date, an optional image and some text.
+		
+		Some additional tags are presented such as:
+			q : meant for short quotes that are displayed within the paragraph. It is
+                an inline element, such as em.
+			blockquote : meant for long quotes, that need to be displayed on its own
+						 paragraph. It is a block element such as h1, h2, p, etc.
+		
+			br : Used to add a linebreak. It is an inline element.
+			ol : Ordered lists (It is a block element), with 
+			li : for each of the items of the list (It is a block element)
+			ul : Unordered lists (It is a block element), which also uses li for its
+				 elements.
+			time : identfies the content as a date and/or time value (inline).
+			
+		journal.html :
+			The main page for the Journal.						
+	</description>
+</project>
+

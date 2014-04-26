@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>001-lounge-html</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 001-lounge-html</name>
+  	
+	<description>
+		about.html :
+			Simple page featuring a link to an image and a few paragraphs. It serves to
+			introduce the basic structure of an HTML page and its elements:
+				html tag
+				head tag : which is used to set the page title
+				body tag : which is used for the contents of the page
+				
+			The content use headings h1 and paragraphs p.
+			It also links to an image using img.			
+	</description>
+</project>
+

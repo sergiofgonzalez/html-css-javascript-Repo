@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>002-starbuzz</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 002-starbuzz</name>
+  	
+	<description>
+		This project introduces the separation between:
+			+ structure: HTML
+			+ presentation: CSS
+			
+		index.html :
+			The main page for Starbuzz coffee. Apart from the basic structure it 
+			includes some basic CSS style embedded in the head section using the style 
+			tag.
+			The style only applies to the body, and sets the following presentation
+			options:
+				+ background color
+				+ margin to the left and right
+				+ dotted border for the page contents
+				+ some pixel padding to add a few pixel margin to that border
+				+ a sans-serif font
+	</description>
+</project>
+

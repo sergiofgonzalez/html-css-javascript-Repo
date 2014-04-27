@@ -23,6 +23,7 @@
 		<module>002-starbuzz</module>
 		<module>003-lounge-html-links</module>
 		<module>004-journal</module>
+		<module>005-starbuzz-v2</module>
 	</modules>
 </project>
 

@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>005-starbuzz-v2</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 005-starbuzz-v2</name>
+  	
+	<description>
+		This project introduces several new concepts related to structure layer:
+			+ links to webpages outside current site
+			+ title attribute added to a tag to improve accessibility (besides a tooltip is displayed)
+			+ id attribute on heading as a way to provide a landing spot for href.
+			+ opening a new window when the user clicks on a link, instead of reuse current window
+			
+			
+		index.html :
+			The main page for Starbuzz coffee. It includes links to pages in this website
+			as well as a link to an outside website.
+	</description>
+</project>
+

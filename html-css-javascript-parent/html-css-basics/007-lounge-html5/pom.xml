@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>007-lounge-html5</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 007-lounge-html5</name>
+  	
+	<description>
+		The project leverages on 003-lounge-html-links to include HTML5 standardization
+		elements, specifically:
+			+ doctype html element
+			+ meta with charset attribute 
+
+		The pages were validated using: http://validator.w3.org/ tool.
+	</description>
+</project>
+

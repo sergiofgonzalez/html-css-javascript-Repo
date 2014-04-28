@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>006-mypod</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 006-mypod</name>
+  	
+	<description>
+		This project introduces everything related to images and the img tag:
+			+ img is an inline element
+			+ ensure the img always has the alt attribute for accessibility and text-only browsers
+			+ the width and height attributes should be set to the original width and height of the image
+			  to help the browser layout the page before the image is retrieved. To scale the image
+			  use CSS instead!
+			+ Use images as clickable links
+			
+		
+		The purpose of the project is building a gallery-like webpage with clickable thumbnail images.
+		At the beggining, only the text is laid out, then the images at the original sizes are added,
+		then the thumbnails and finally the clickable images.
+		
+		index_large_pics.html :
+			First version of the page featuring the original size images.
+			
+		index_thumbs :
+			Second version of the page in which small copies of the original images are created and
+			stored in the thumbnails folder. 	
+			
+		index_clickable_thumbs :
+			Third version of the page in which the thumbnails are embedded in a tags to made them
+			links.
+			When the user clicks on the thumbnail a new page is displayed. This very simple pages
+			are stored in the html folder.
+		
+		index.html :
+			Final version of the page featuring a logo in the header of the web page.
+	</description>
+</project>
+

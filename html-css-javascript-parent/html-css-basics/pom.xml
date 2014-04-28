@@ -24,6 +24,7 @@
 		<module>003-lounge-html-links</module>
 		<module>004-journal</module>
 		<module>005-starbuzz-v2</module>
+		<module>006-mypod</module>
 	</modules>
 </project>
 

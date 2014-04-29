@@ -26,6 +26,7 @@
 		<module>005-starbuzz-v2</module>
 		<module>006-mypod</module>
 		<module>007-lounge-html5</module>
+		<module>008-lounge-css</module>
 	</modules>
 </project>
 

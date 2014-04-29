@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>008-lounge-css</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 008-lounge-css</name>
+  	
+	<description>
+		CSS: each CSS statement consists of a location, a property on that location and
+		a style to apply to that property.
+		
+		CSS statements are called rules.
+		
+		Rules can be combined using comma:
+		
+		h1, h2 {
+			color: gray;
+		}
+		
+		Rules can appear multiple times for the same location.
+		
+		The location is called the selector
+		
+		The elements within a block element for which a style is defined inherit the
+		styles. For example, elements defined within p inherit the CSS rules defined
+		for p. If you move it further up to the body, then all elements will be affected.
+		
+		Inheritance can be overridden by specifying a different rule for a given element.
+		
+		The browser knows which rule to apply by using 'the most specific' rule. If there
+		is a rule for body and a more specific rule for p, the rule for p will be applied.
+		
+		The project leverages on 007-lounge-html5 to include links to a CSS file named
+		lounge.css.
+		
+		This CSS contains very basic styles (font family, colors, horizontal lines, etc.)
+		
+		No classes are used.
+	</description>
+</project>
+

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+/* Define a font face for WebFont "Emblema One" for later use */
+@font-face {
+	font-family: "Emblema One";
+	src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+		 url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
+}
+
+
+body {
+	/* best strategy: Verdana for Win, Geneva for Mac, Arial (both), if everything fails fall back to any sans-serif */
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: small;	
+}
+
+h1, h2 {
+	color: #888888;
+	border-bottom: thin dotted;
+}
+
+h1 {
+	/* use previously defined web font, if not found fall back to sans-serif */
+	font-family: "Emblema One", sans-serif;
+	font-size: 220%;
+}
+
+h2 {
+	font-size: 130%;
+	font-weight: normal;
+}
+
+blockquote {
+	font-style: italic;
+}

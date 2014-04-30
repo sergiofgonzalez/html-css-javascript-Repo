@@ -1,0 +1,72 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>010-journal-fonts</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 010-journal-fonts</name>
+  	
+	<description>
+		This project is based on 004-journal and explores font capabilities of HTML and
+		CSS.
+		
+		font-family:
+			+ sans-serif  
+				- fonts without serif, more readable than serif on computer screens
+				- Examples: Verdana, Arial, Geneva, ...
+			+ serif
+				- fonts with serifs (decorative barbs), typically associated with the look of newspapers print.
+				- Examples: Times, Times New Roman, Georgia
+			+ monospace
+				- fonts with constant width characters
+				- Examples: Courier, Courier New, Consolas, ...
+			+ cursive
+				- fonts that look handwritten
+				- Examples: Comic Sans, Apple Chancery, ...
+			+ fantasy
+				- stylized, decorative fonts
+				- Examples: Impact
+		
+		typically, you specify the font-family property and a list of fonts, that should
+		conclude with the specification of a family:
+			font-family : Verdana, Geneva, Arial, sans-serif;
+						
+		font-size: can be specified in px, or in pct to a font-size inherited from the
+		parent element. You can also specify a scaling factor units (em) which is similar to pct.
+		You can also specify sizes with keywords such as x-small, large, xx-large, etc.
+			Recommended pattern:
+				+ Choose a keyword for the font-size of the body rule.
+				+ Specify the font sizes of the other elements relative to the body
+				font-size using either em or pct.
+		
+		font-weight: bold, etc.
+		font-style: italic, oblique, ...
+		color: by name, by rgb pcts as in rgb(80%, 40%, 0%); or rgb(255, 25, 0) or in hex #ff1000
+			{ the formula to map pcts in values is y =  (x * 255) / 100 }
+		Note that there is a shorthand if each two digit pair shares the same numbers as in
+			#cb0 for #ccbb00, or #1ea for #11eeaa...
+		text-decoration: underline, overline, none, etc.
+		
+		
+		Web Fonts : allows you to deliver a font as part of the payload of your page, so that
+		the client will receive the font when it is not installed in the system. This is done
+		with a special css rule @font-face.
+						
+						
+		The project consist in structuring a journal web page that includes a title,
+		a description and a sequence of three entries of the journal, all of them sharing
+		the same structure: date, an optional image and some text.
+			
+		journal.html :
+			The main page for the Journal.						
+	</description>
+</project>
+

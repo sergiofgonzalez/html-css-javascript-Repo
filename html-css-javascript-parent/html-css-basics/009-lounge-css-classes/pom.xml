@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>009-lounge-css-classes</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 009-lounge-css-classes</name>
+  	
+	<description>
+		This project builds on 008-lounge-css and incorporates some additional CSS
+		features such as CSS classes.
+		
+		CSS: each CSS statement consists of a location, a property on that location and
+		a style to apply to that property.
+		
+		CSS statements are called rules.
+		
+		Rules can be combined using comma:
+		
+		h1, h2 {
+			color: gray;
+		}
+		
+		Rules can appear multiple times for the same location.
+		
+		The location is called the selector
+		
+		The elements within a block element for which a style is defined inherit the
+		styles. For example, elements defined within p inherit the CSS rules defined
+		for p. If you move it further up to the body, then all elements will be affected.
+		
+		Inheritance can be overridden by specifying a different rule for a given element.
+		
+		The browser knows which rule to apply by using 'the most specific' rule. If there
+		is a rule for body and a more specific rule for p, the rule for p will be applied.
+		
+		The project leverages on 007-lounge-html5 to include links to a CSS file named
+		lounge.css.
+		
+		This CSS contains very basic styles (font family, colors, horizontal lines, etc.)
+		
+		CSS classes to style differently elements of the same type (paragraphs, headings,
+		etc.). To use CSS classes you have to modify the element and also use class
+		selectors in your CSS.
+		
+		CSS Validator can be found at: http://jigsaw.w3.org/css-validator/
+		
+		Common Properties:
+			+ background-color : controls the background color of an element
+			+ background-image : use this property to put an image behind an element			
+			+ border : puts a border around an element - solid, dotted, ridged...
+			+ color : sets the font color for text elements
+			+ font-size : makes text bigger or smaller
+			+ font-style : use this property to make the font italic or oblique
+			+ font-weight : the weight of the text, for example, to make it bold
+			+ left : how you tell an element how to position its left side
+			+ letter-spacing : controls the spacing between letters l i k e  t h i s 
+			+ line-height : sets the space between lines in a text element
+			+ list-style : to change how list items look in a list
+			+ padding : use this property if you need space between the edge of an element and its content
+			+ text-align : use this property to align your text to the left, center or right
+			+ top : controls the position of the top of the element
+	</description>
+</project>
+

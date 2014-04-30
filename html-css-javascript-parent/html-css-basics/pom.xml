@@ -27,6 +27,7 @@
 		<module>006-mypod</module>
 		<module>007-lounge-html5</module>
 		<module>008-lounge-css</module>
+		<module>009-lounge-css-classes</module>
 	</modules>
 </project>
 

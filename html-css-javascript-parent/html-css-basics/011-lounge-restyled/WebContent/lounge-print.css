@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*
+	This CSS is specific for printers
+*/
+
+body {
+	font-size: 12pt;
+	font-family: Times, "Times New Roman", serif;
+	line-height: 1.4em;
+	margin: 10px 40px 10px 40px;
+	width: 700px;
+}
+
+h1, h2 {
+	color: black;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 130%;
+}
+
+#guarantee {
+	padding: 25px 25px 25px 25px;
+	border: thin solid black;
+	margin-right: 240px;
+	margin-right: 30px;
+	line-height: 1.5em;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #222222;
+}

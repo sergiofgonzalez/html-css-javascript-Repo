@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>011-lounge-restyled</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 011-lounge-restyled</name>
+  	
+	<description>
+		This project builds on 009-lounge-css-classes and incorporates some advanced
+		styling techniques such as the box model, media queries and responsive CSS.
+		
+		selectors for ids, class is for groups of elements that should be applied the
+		same style. For ids selector # is used as in #guarantee. If you have to select
+		the p element within the id=guarantee you would use p#guarantee.
+				
+		Several stylesheets can be linked in the head element, to provide some short of
+		overriding mechanisms. Thus instead of modify a base stylesheet, you can add a
+		second stylesheet and override some of the values of the base style. This
+		along with the media attribute of the link element lets you prepare a specific
+		stylesheet that works with mobile devices, or printers.
+		For example:
+			&lt;link href="print.css" rel="stylesheet" media="print"&gt;
+		will only be enabled if it is a printer.
+				
+		
+		Media queries: it is a way of targetting your CSS to devices with specific
+		properties:
+			@media screen and (min-device-width: 481px) {
+				#guarantee {
+					margin-right: 250px;
+				}
+			}
+		
+		There are special properties that control screen sizes of the devices:
+		max-device-width, min-device-width : max and min width of the device screen
+		max-width, min-width : max and min width of the browser window
+		
+		Using these properties along with the specification of several CSS you can obtain
+		a responsive design in the page. In the project, it is specified a base CSS when
+		browser screen larger than 480px, and mobile CSS for screens smaller than 480px.
+		It is also added a specific CSS when the page is going to be printed.			
+	</description>
+</project>
+

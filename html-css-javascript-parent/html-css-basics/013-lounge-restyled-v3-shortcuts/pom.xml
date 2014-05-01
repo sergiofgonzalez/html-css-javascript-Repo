@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>013-lounge-restyled-v3</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 013-lounge-restyled-v3</name>
+  	
+	<description>
+		This project builds on 012-lounge-restyled-v2 and introduces several concepts:
+		
+		shortcuts: a way to group several related properties (margin, border, 
+		background-image, font)
+		
+		new HTML element:
+			span : it's like a div, but for inline elements. It lets you create a grouping
+			of inline elements.
+		
+		CSS topics:
+			pseudo-classes: they're used for styling links (a:link, a:visited, etc.)
+			styling of links:
+				
+			new CSS style:
+			float : to make a div container float in the page.
+	</description>
+</project>
+

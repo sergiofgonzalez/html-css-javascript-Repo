@@ -31,6 +31,7 @@
 		<module>010-journal-fonts</module>
 		<module>011-lounge-restyled</module>
 		<module>012-lounge-restyled-v2</module>
+		<module>013-lounge-restyled-v3</module>
 	</modules>
 </project>
 

@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>012-lounge-restyled-v2</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 012-lounge-restyled-v2</name>
+  	
+	<description>
+		This project builds on 011-lounge-restyled and using div and span elements
+		can divide the page into logical sections that can be styled individually.
+		
+		div: helps you add logical structure to your pages. It is like a container.
+		
+		new CSS property:
+			+ width: lets you specify the width of the element's contents area.
+			+ text-align: alignment for text and images
+		
+		selecting descendants:
+			+ by using #elixirs h2 you are selecting the h2 elements within the
+			element marked with id="elixirs"
+		
+		In this example, it is added a div element on the elixirs section of the page
+		and it is styled as a handout menu.
+		It is given a non-default width, to let the browser know that we dont want
+		it to occupy as much space as available. Therefore, it is given a tall rectangular
+		appearance.
+		Then, it is styled in known ways by giving it a margin, padding, background image,
+		etc.
+		Then it is used a new technique to select specific elements within a div container,
+		by using the syntax #elixirs [element], as in #elixirs h2. This lets us style
+		the h2 headings without affecting any other h2 within the page.
+	</description>
+</project>
+

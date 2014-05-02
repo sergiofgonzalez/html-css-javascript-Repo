@@ -30,6 +30,9 @@
 				
 			new CSS style:
 			float : to make a div container float in the page.
+			
+		the lounge-test.html has been added to see how the page flow goes when the
+		floating element is not the first in the page.
 	</description>
 </project>
 

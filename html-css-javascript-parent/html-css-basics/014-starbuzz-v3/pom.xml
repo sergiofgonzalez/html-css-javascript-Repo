@@ -81,10 +81,22 @@
 			This changes completely the approach, and thus it is based on index-v1.html 
 			and	starbuzz-v1.css. There are still some problems related to window sizing.
 			
-		index-v7.html + starbuzz-v7.cc:
+		index-v7.html + starbuzz-v7.css:
 			This example is based on the first version but uses CSS table to achieve
 			a 2-column style. In this case, the only thing that needs fixing is the margin
-			on header and footer that needs to be reduced a little bit.						
+			on header and footer that needs to be reduced a little bit.		
+			
+		index-v8.html + starbuzz-v8.css:
+			This example is based on the v7 and adds another column to the table with the
+			Beverages.
+			It also fixes the header logo, which is 800px wide and does not reposition
+			itself.				
+			Additionally, an image is set with absolute positioning in a certain position
+			in the header.
+			
+		index-v9.html + starbuzz-v9.css:
+			This example is based on v8 and adds a fixed positioned coupon that stays in the
+			same position even when the user scrolls the page.
 	</description>
 </project>
 

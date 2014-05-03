@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>016-html-tables</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 016-html-tables</name>
+  	
+	<description>
+		This project discusses html tables to display data in a tabular fashion.
+		
+		The elements that conforms the table element are introduced with a very
+		simple table that will be reused in the following project:
+			+ table : the element for the whole table
+			+ caption : the text that must go with the table explaining its contents
+			+ tr : the table row element
+			+ th : a table header cell
+			+ td : a table data cell
+
+		No special CSS is used to style the table, only the minimum border to make
+		the cells visible.
+	</description>
+</project>
+

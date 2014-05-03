@@ -1,0 +1,90 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>014-starbuzz-v3</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 014-starbuzz-v3</name>
+  	
+	<description>
+		This project is based on starbuzz-v2 and gives it a new style:
+
+		CSS property:
+			clear : use the clear property on an element to request that as the element
+			is being flowed onto the page, not floating content is allowed on the left,
+			right or both sides of the element.
+			
+			position: static (go with the flow), absolute (ignore the element in the
+			flow and position it with the given info), fixed (absolute to the top-left
+			origin of browser's window) and relative (take an element and flow it on the
+			page). When using absolute positioning, you can use percentages instead of px.
+			
+			CSS tables:
+				This consists in setting a div container for all the elements that you
+				want laid-out in a table. Then you also identify also the elements that
+				you want in each row.
+				Then in the CSS you identify each of the elements for a given row with
+				the property display: table-cell.
+				New properties (for CSS tables):
+					border-spacing: adds spacing to the cells of the table.
+					display: table, table-row, table-cell.
+
+		index-v1.html + starbuzz.css:
+			Added CSS for starbuzz's new index page. Basic styles including several
+			div containers: header, main, sidebar and footer.
+			The header includes an image and background color.
+			The main and sidebar includes a background image.
+			The footer includes the copyright and legal info.
+			
+		index-v2.html + starbuzz-v2.css:
+			html is reformatted to make the sidebar floating to the right. 
+			To solve some overlapping problems between the sidebar and the footer
+			we introduce the CSS clear property to make the footer appear always
+			behind the main or sidebar element.
+			This has an unforeseen consequence: there is a gap either between the main
+			content and the footer, or the sidebar and the footer.
+			This is solved in v3...
+		
+		index-v3.html + starbuzz-v3.css:
+			html is reformatted again, with the main content put on top of the sidebar,
+			so that information-wise it is correct (in html readers, and some mobiles
+			v2 makes the sidebar to be read/seen before the main content!!).
+			Nevertheless, this design has also the little problem that the sidebar expands
+			so that it looks a bit weird (navigation and sidebars are typically fixed-size).
+			This is because the page has a liquid design. Next version explores a frozen
+			design. 
+			
+		index-v4.html + starbuzz-v4.css:
+			Explores the frozen (as opposed to liquid) design. This consists in creating
+			a div container wrapping all body elements and setting a fixed width on
+			that container (say 800px). 
+			This frozen design does not look good when the page is maximized because it
+			is not responsive when the browser page size is increased (margins appear on
+			the right).
+			The next version uses a jello (not liquid, nor frozen) design.
+		
+		index-v5.html + starbuzz-v5.css:
+			Explores the jello design. This centers the contents in the browser window,
+			adding margin space to both right and left, which does not look too good
+			either.	
+			The only alternative left for us is use absolute positioning.
+			
+		index-v6.html + starbuzz-v6.css:
+			This changes completely the approach, and thus it is based on index-v1.html 
+			and	starbuzz-v1.css. There are still some problems related to window sizing.
+			
+		index-v7.html + starbuzz-v7.cc:
+			This example is based on the first version but uses CSS table to achieve
+			a 2-column style. In this case, the only thing that needs fixing is the margin
+			on header and footer that needs to be reduced a little bit.						
+	</description>
+</project>
+

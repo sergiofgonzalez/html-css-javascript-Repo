@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>015-starbuzz-html5</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 015-starbuzz-html5</name>
+  	
+	<description>
+		This project is based on starbuzz-v3, (index-v8, but without the award) and it 
+		is rebranded using HTML5.
+
+		HTML5 elements:
+			+ header : for the header container
+			+ footer : for the footer container
+			+ aside  : for the sidebar
+			+ section: for the sections of the page (drinks, main container)
+			+ article: a self-contained piece of content, usually defined within a section
+			+ time   : to tag datetime values
+			+ nav    : to identify the navigation toolbar of the page
+			+ video  : to embed video content on the page (as if it was an img). You can
+			           even supply several formats an a message to display if the browser
+			           does not support the video element.
+
+		The CSS is also updated in order to apply the styles that used to refer to the
+		ids to the new ones that are applied to elements.
+
+		index.html + starbuzz.css:
+			This example is the same page layout as in 014- v8, but using HTML5 elements
+			instead of id. As a refresher, the page uses CSS tables for positioning
+			the drinks, main and sidebar content, and it also displays a header and a footer.
+			A few things on the sidebar are also added: the slogan is given a bold appearance
+			and that stylish red-brown color. 
+			The link to the BEAN MACHINE is also given some style.
+			Besides, as we'll be using headers in the blog page, and the stylesheet is shared
+			among the pages, we have to add the class="top" in our header.
+		
+		blog.html + starbuzz.css:
+			With the same style as the index page, it is created a page to hold some entry
+			blogs in the main section. The idea is to keep the drinks and sidebar the same
+			as the index page and just change the main section to a blog.
+			The blog is created as a section with id="blog" and each of the blog entries
+			is tagged as an article.
+			Within the article, we have a header with the blog entry name and a date. As
+			we had a previous header in the page, this one has to be tagged with a new 
+			class="top", so the article header and the top header can be styled separately.				
+			
+			This blog page also features a navigation toolbar, which consists of a list of
+			links wrapped in a nav element. The list is styled very specifically in the CSS
+			to prevent other lists appearing on the page to be styled just like the navigation
+			toolbar.
+			 	
+			Finally, an entry blog featuring a video! which is as simple as an img tag.			
+	</description>
+</project>
+

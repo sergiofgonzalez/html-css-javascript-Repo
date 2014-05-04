@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>javascript-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>001-hello-js</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 001-hello-js</name>
+  	
+	<description>
+		This project contains very simple html pages with basic JavaScript.
+		
+		hello-js.html:
+			basic page with a script element defined in the head section of the page.
+			Within that script element, it is defined a JavaScript program that
+			invokes the setTimeout() function passing another function and a delay
+			in msecs.
+			After the time has expired, the given function is called. The function
+			is declared right below the invocation of the setTimeout() and it simply
+			pops-up a message using the JavaScript alert function.
+			
+		while-js.html:
+			same basic page with a script that demonstrate the while loop.
+			It is defined a numeric variable that is given an initial value that is
+			decremented with each of the executions of the loop.
+			In each iteration, something is written on the page using the document.write()
+			method.
+			When the loop is finished, document.write() is used to display a final message.
+			It is interesting to use Chrome to debug the JavaScript: to do that just
+			open the Developer Tools and then, select sources and locate the section with
+			the JavaScript code. There you can add some breakpoints, watches, etc.
+			In order to see it running, just reload the page.
+			
+		if-js.html :
+			Demonstrates a basic if statement.
+		
+		console-js.html:
+			Demonstrates how to use the console.log() method and see the console output.
+			
+		99-bottles-js.html:
+			Simple program that displays in the log the 99 bottles of beer song using
+			JavaScript. The program declares variables (string and numeric), and while
+			loop and if's.
+			
+		external-js.html:
+			The same program as before, but with the JavaScript program in its own file.
+			The HTML page includes a script element, but this time with a src attribute
+			that is used to give the location of the JavaScript code.
+	</description>
+</project>
+

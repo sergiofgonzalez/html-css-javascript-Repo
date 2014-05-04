@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Just a Generic Page with a Script</title>
+	<script>
+		// basic if
+		var scoops = 2;
+		if (scoops < 3) {
+			alert("Ice cream is running low!");
+		}
+		
+		// if-else
+		scoops = 7;
+		if (scoops >= 5) {
+			alert("Eat faster, the ice cream is going to melt!");
+		} else {
+			alert("Ice cream is good");
+		}
+		
+		// if-else-if
+		scoops = 2;
+		if (scoops >= 5) {
+			alert("Eat faster, the ice cream is going to melt!");
+		} else if (scoops < 3) {
+			alert("Ice cream is running low!");
+		}
+		
+		// chained if-else-if
+		if (scoops >= 5) {
+			alert("scoops gt 5");
+		} else if (scoops == 4) {
+			alert("scoops eq 4");
+		} else if (scoops == 3) {
+			alert("scoops eq 3");
+		} else if (scoops == 2) {
+			alert("scoops eq 2");
+		} else if (scoops == 1) {
+			alert("scoops eq 1");
+		} else if (scoops == 0) {
+			alert("scoops eq 0");
+		} else {
+			alert("unexpected value for scoops var");
+		}
+		
+	</script>	
+</head>
+<body>
+	<h1>Just a generic heading</h1>
+	<p>
+		Not a lot to read about here. I'm just an obligatory paragraph living in an 
+		example in a JavaScript book. I'm looking for something to make my life more
+		exciting.		
+	</p>
+</body>
+</html>

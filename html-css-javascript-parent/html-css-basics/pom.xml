@@ -36,6 +36,7 @@
 		<module>015-starbuzz-html5</module>
 		<module>016-html-tables</module>
 		<module>017-journal-with-html-tables</module>
+		<module>018-starbuzz-forms</module>
 	</modules>
 </project>
 

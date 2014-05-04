@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>018-starbuzz-forms</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 018-starbuzz-forms</name>
+  	
+	<description>
+		This project is based on 015-starbuzz-html5 and adds an order form.
+		
+		HTML elements:
+			+ form : for forms within a page
+			+ input type="text"    : textfields
+			+ input type="radio"   : radio buttons
+			+ input type="number"  : number textfield
+			+ input type="date"    : date selection
+			+ input type="checkbox": checkbox
+			+ input type="submit"  : for buttons
+			+ textarea : for multiline textfields
+			+ select, option : for drop-downs 
+
+		form.html : A basic web form with some form elements and basic CSS styling.
+		The form links to the starbuzz.css but also defines an additional CSS file which
+		includes specific styles for the form.
+	</description>
+</project>
+

@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.joolzminer</groupId>
+		<artifactId>html-css-basics</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+    <artifactId>017-journal-with-html-tables</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>|---- 017-journal-with-html-tables</name>
+  	
+	<description>
+		This project is based on 010-journal-fonts and explores some topics related
+		to tables and lists.
+		
+		Tables:
+			elements: table, tr, th, td
+			styling the table using classes and pseudo-classes.
+			rowspan, to expand td for several rows
+
+		Lists:
+			customizing the bullets of an ul, using an image as a bullet.
+		
+		CSS Properties:
+			list-style-type: lets you customize the marker using circles, disc,
+			squares, none.
+			
+			list-style-image: lets you use an image instead of the predefined markers.
+		
+		journal:
+			table color is performed using classes and regular css. This example also
+			shows how to make a td to span across several rows using rowspan.
+			It also demonstrate how to include tables within tables and how to select
+			the header of the the internal tables in the CSS using the following selector:
+				table table th {}
+			Finally it demonstrate how to style lists using list-style-type and using
+			a custom marker (an image) for the bullet points.
+			
+		journal-pseudo:
+			table color is performed using pseudo classes, which is more convenient
+			because that way we don't need to annotate every even tr with the attribute
+			class="cellcolor". 
+	</description>
+</project>
+
